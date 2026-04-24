@@ -140,3 +140,20 @@ plt.imshow(faceWithGlassesArithmetic[:, :, ::-1])
 plt.title("Final Output Using Masking Method")
 plt.axis("off")
 plt.show()
+```
+## Original Face Image
+<img width="460" height="542" alt="image" src="https://github.com/user-attachments/assets/299a084b-5510-4b71-b538-d655927fb893" />
+## Sunglasses PNG Image
+<img width="763" height="353" alt="image" src="https://github.com/user-attachments/assets/97daf794-40fe-4dbc-b232-ae96287501a7" />
+##
+Naive Overlay Output
+
+This method directly places the sunglasses without considering transparency, so the result looks unnatural.
+<img width="417" height="520" alt="image" src="https://github.com/user-attachments/assets/aa203a9e-2390-4285-8973-ba1ad3691960" />
+## Final Output Using Arithmetic and Masking Method
+
+This method preserves transparency and gives a realistic professional-looking output.
+<img width="1378" height="861" alt="image" src="https://github.com/user-attachments/assets/d63df1be-23a3-4021-9fe6-5276d9fd286d" />
+
+
+
